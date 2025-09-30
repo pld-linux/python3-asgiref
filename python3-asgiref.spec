@@ -5,13 +5,13 @@
 %define		module	asgiref
 Summary:	ASGI specs, helper code, and adapters
 Name:		python3-%{module}
-Version:	3.8.1
+Version:	3.9.2
 Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/asgiref/
 Source0:	https://files.pythonhosted.org/packages/source/a/asgiref/%{module}-%{version}.tar.gz
-# Source0-md5:	fb2927e26ea34c97e0a4c89612e80562
+# Source0-md5:	6281a0541574b46fde3d09db79746048
 URL:		https://pypi.org/project/asgiref/
 BuildRequires:	python3-modules >= 1:3.2
 BuildRequires:	python3-setuptools
