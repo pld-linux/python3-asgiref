@@ -6,13 +6,13 @@
 Summary:	ASGI specs, helper code, and adapters
 Summary(pl.UTF-8):	Specyfikacja ASGI, kod pomocniczy i adaptery
 Name:		python3-%{module}
-Version:	3.10.0
+Version:	3.11.1
 Release:	1
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/asgiref/
 Source0:	https://files.pythonhosted.org/packages/source/a/asgiref/%{module}-%{version}.tar.gz
-# Source0-md5:	6799fce19314e0aaeb789a6d0f6d45fa
+# Source0-md5:	85bc32494d842f4941e2b1fc2c7b61cb
 URL:		https://pypi.org/project/asgiref/
 BuildRequires:	python3-modules >= 1:3.9
 BuildRequires:	python3-setuptools
